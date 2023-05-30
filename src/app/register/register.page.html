@@ -1,6 +1,9 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="primary">
-    <ion-title class="ion-text-center">Login</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">Registro</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -41,6 +44,7 @@
     <ion-row>
       <ion-col>
         <ion-button
+          routerDirection="back"
           routerLink="/login"
           type="submit"
           expand="block"
