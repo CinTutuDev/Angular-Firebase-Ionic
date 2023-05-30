@@ -20,3 +20,18 @@ v16.0.0
 * Framework: Angular
 * Project name: angular-firebase-ionic
 * Starter template: sidemenu
+
+## URL Importantes
+* Capacitor
+```
+https://capacitorjs.com/
+```
+## Up app
+
+```
+ ionic serve
+````
+## Crear páginas sin spec
+```
+ ionic g page login --spec=false
+ ```
