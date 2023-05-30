@@ -4,7 +4,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" class="ion-padding">
+<ion-content [fullscreen]="true" class="ion-padding" (ngSubmit)="login()" >
   <form  [formGroup]="form" novalidate>
     <ion-list>
       <ion-item>
@@ -18,12 +18,12 @@
     </ion-list>
     <ion-row>
       <ion-col>
-        <ion-button  expand="block" fill="clear" shape="round">
+        <ion-button type="submit" expand="block" fill="clear" shape="round">
           Login
         </ion-button>
       </ion-col>
       <ion-col>
-        <ion-button expand="block" fill="clear" shape="round">
+        <ion-button type="button" expand="block" fill="clear" shape="round">
           Registro
         </ion-button>
       </ion-col>
