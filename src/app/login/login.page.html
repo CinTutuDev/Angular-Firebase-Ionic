@@ -4,8 +4,8 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" class="ion-padding" (ngSubmit)="login()" >
-  <form  [formGroup]="form" novalidate>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <form  [formGroup]="form" novalidate (ngSubmit)="login()">
     <ion-list>
       <ion-item>
         <ion-label position="stacked" placeholder="Enter text">Email </ion-label>
@@ -13,7 +13,7 @@
       </ion-item>
       <ion-item>
         <ion-label position="stacked" placeholder="Enter text">Password </ion-label>
-        <ion-input type="text" placeholder="" formControlName="pass"></ion-input>
+        <ion-input type="pass" placeholder="" formControlName="pass"></ion-input>
       </ion-item>
     </ion-list>
     <ion-row>
