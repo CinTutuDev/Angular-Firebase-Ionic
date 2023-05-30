@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-firebase-ionic": {
+      "hosting": {
+        "app": [
+          "angular-firebase-ionic"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-firebase-ionic"
+  }
+}
