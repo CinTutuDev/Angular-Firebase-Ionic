@@ -31,3 +31,7 @@ https://capacitorjs.com/
 ```
  ionic serve
 ````
+## Crear páginas sin spec
+```
+ ionic g page login --spec=false
+ ```
