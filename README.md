@@ -26,3 +26,8 @@ v16.0.0
 ```
 https://capacitorjs.com/
 ```
+## Up app
+
+```
+ ionic serve
+````
