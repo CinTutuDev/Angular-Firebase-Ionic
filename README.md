@@ -39,3 +39,33 @@ https://ionicframework.com/docs/components
 ```
  ionic g page login --spec=false
  ```
+## ✔Terminado login y register vamos a Firebase:
+ * 1ºCreamos nuevo proyecto 🛠https://console.firebase.google.com
+ * 2ºVamos a esta pg 🛠https://github.com/angular/angularfire <br>
+Copiamos comando pasamos a terminal:
+```
+ ng add @angular/fire
+```
+  Respodemos a: <br>
+```
+  Would you like to proceed? Yes<br>
+✔ Packages successfully installed.<br>
+✔ Packages installed successfully.<br>
+? What features would you like to setup? (Press <space> to select, <a> to toggle all, <i> to invert selection, and
+<enter> to proceed)<br>
+ (*) ng deploy -- hosting<br>
+ (*) Authentication<br>
+ (*) Firestore<br>
+```
+
+
+
+
+
+
+
+
+
+
+
+
