@@ -56,6 +56,23 @@ Copiamos comando pasamos a terminal:
  (*) ng deploy -- hosting<br>
  (*) Authentication<br>
  (*) Firestore<br>
+ What would you like to call your app? Angular-Firebase-Ionic
+```
+* 3ºVamos app.module.ts y vemos que ha creado:<br>
+```
+@NgModule({
+  declarations: [AppComponent],
+  imports: [
+    BrowserModule,
+    IonicModule.forRoot(),
+    AppRoutingModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth()),
+    provideFirestore(() => getFirestore()),
+  ],
+  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+  bootstrap: [AppComponent],
+})
 ```
 
 
